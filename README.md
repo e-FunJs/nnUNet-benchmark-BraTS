@@ -25,7 +25,7 @@ export nnUNet_preprocessed="/root/autodl-tmp/nnUNet/nnUNet_preprocessed"
 export nnUNet_results="/root/autodl-tmp/nnUNet/nnUNet_results"
 ```
 Please determine the content based on your actual situation.   
-Please download the dataset from [Here](https://www.openai.com)<br>
+Please download the dataset from [Here](https://drive.google.com/drive/folders/1O51sltrjFbGnOfM3vxezJOk7FtBSjUQg?usp=drive_link). <br>
 Next, we can prepare to start training!
 ## 3. Training
 Please confirm that you have downloaded the dataset I prepared. You may find 4 folders `Task001_BraTS`, `Dataset725_BraTS`, `BraTS2021_Training_Data`, and `Dataset666_BraTS2021`, where `Task001_BraTS` and `BraTS2021_Training_Data` are the original datasets, while `Dataset725_BraTS` and `Dataset666_BraTS2021` are the converted datasets. <br>
