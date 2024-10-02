@@ -87,7 +87,7 @@ Run this command:
 ```
 nnUNetv2_find_best_configuration ID(custom) -c (e.g., 2d/3d_fullres/2d 3d_fullres if you have trained on both of them) -f 0 1 2 3 4
 ```
-### 4. Inference and Post-Processing
+## 4. Inference and Post-Processing
 Run these commands:
 ```bash
   nnUNetv2_predict -d ID(custom) -i INPUT_FOLDER -o OUTPUT_FOLDER -f  0 1 2 3 4 -tr nnUNetTrainer -c 3d_fullres -p nnUNetPlans
